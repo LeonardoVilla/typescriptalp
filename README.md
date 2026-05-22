@@ -19,6 +19,15 @@ npm install @types/node --save-dev
 ### 3. Configurar o TypeScript
 O arquivo `tsconfig.json` deve conter:
 
+### 4. Instalar prompt-sync (para entrada de dados via prompt)
+Execute no terminal:
+
+```
+npm install prompt-sync
+```
+
+Motivo: Permite capturar entrada do usuário de forma simples no terminal.
+
 ```
 {
   "compilerOptions": {
